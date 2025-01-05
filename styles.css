@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+header {
+    background-color: #5b5ea6; /* blue background */ 
+    color: white; /* White text */
+    padding: 3px 0; /* Padding around the header */
+    text-align: center; /* Centered text */
+    margin: 0;
+    border-width: 0;
+}
+
+nav {
+    overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+nav ul {
+    display: flex; /* Use flexbox for horizontal layout */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0;
+    border-width: 0;
+}
+
+nav ul li {
+    flex: 1; /* Each item takes equal space */
+    text-align: center; /* Center text within each item */
+}
+
+nav ul li a {
+    display: block; /* Make the link fill the entire list item */ 
+    color: white; /* White text for links */
+    margin: 0;
+    border-width: 0;
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px; /* Add padding for better click area */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #fdac53; /* marigold on hover */
+}
+
+main {
+    padding: 20px;
+    width: auto;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-corners {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 15px; /* Default border radius */
+    border: 1px solid #007BFF;
+    background-color: #e9f5ff;
+}
+
+#malware {
+    border-radius: 15px; /* Specific border radius for malware section */
+}
+
+#phishing {
+    border-radius: 15px; /* Specific border radius for phishing section */
+}
+
+#security-tips {
+    border-radius: 15px; /* Specific border radius for security tips section */
+}
+
+#contact {
+    border-radius: 15px; /* Specific border radius for contact section */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+textarea {
+    resize: vertical; /* Allows vertical resizing only */
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #fff;
+}
